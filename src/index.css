@@ -1,0 +1,117 @@
+body{
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+}
+/*sideBar css starts here*/
+.sidebar-overall{
+  width: 230px;
+}
+.sidebar-brand-text{
+  color: #013CC6;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none!important;
+}
+.navitem-text1{
+color: #0B63F8;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+height: 24px;
+}
+.nav-item{
+  height: 24px;
+}
+.navitem-text2{
+color: #131313;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0.32px;
+height: 24px!important;
+}
+.sidebar{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 41px;
+height: 993px;
+}
+.navbar-nav{
+      padding-left: 41px;
+     margin-bottom: 10px;
+}
+.nav-link{
+  gap: 16px;
+}
+.sidebar-brand{
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+.help-position{
+  display: flex;
+  margin-top: 100%;
+}
+a{
+  text-decoration: none;
+}
+.Wrapper{
+  display: flex;
+}
+
+/*Dashboard css starts here*/
+.form-width{
+  width: 40%;
+}
+.navbar-spacing{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap:50%;
+}
+.dashboard-overall{
+  width: 100%;
+  background: #F8F8F8;
+}
+.navbar{
+  padding-top: 3rem;
+  padding-left: 2.5rem;
+}
+.sales-page{
+  padding: 2rem;
+  padding-left: 3rem;
+}
+.sales-text{
+ color: #000;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.customer-info-page{
+  gap: 3rem;
+  padding-left: 3rem;
+}
+.customer-input{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  row-gap: 1rem;
+}
+.form-icon{
+  background: url('./Icons/search-icon.svg') no-repeat scroll 7px 7px;
+  padding-left: 20px;
+}
+th, td {
+  padding: 20px;
+}
+.table-data{
+  border-radius: 3px;
+  background: #FFF;
+  margin: 45px;
+  border: 2rem;
+  width: 90%;
+}
